@@ -12,6 +12,9 @@
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
+body {
+    background: #fff;
+}
 
 .site {
     margin: 0!important;
