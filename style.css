@@ -7,15 +7,53 @@
  Template:       twentysixteen
  Version:        1.0.0
 */
-
 @import url("../twentysixteen/style.css");
-
 /* =Theme customization starts here
 ------------------------------------------------------- */
 body {
-    background: #fff;
-}
+  background: #000; }
 
 .site {
-    margin: 0!important;
-}
+  margin: 0; }
+
+.main-navigation a {
+  color: #fff; }
+
+.site-content {
+  margin: 0 auto; }
+
+.content-area {
+  margin: 0 auto;
+  padding: 40px 0; }
+
+/**
+ *Media Queries
+ */
+/**
+ * 14.1 - >= 710px
+ */
+@media screen and (min-width: 44.375em) {
+  body:not(.custom-background-image):after,
+  body:not(.custom-background-image):before {
+    height: 0; }
+
+  .site {
+    margin: 0; }
+
+  .site-main {
+    margin-bottom: 0; }
+
+  .site-header {
+    padding: 0 5%;
+    background: #000000; }
+
+  .site-branding {
+    margin: 0; }
+    .site-branding img {
+      height: 100px;
+      width: auto; } }
+@media screen and (min-width: 75em) {
+  .site-header {
+    padding: 0 3%; } }
+
+/*# sourceMappingURL=style.css.map */
